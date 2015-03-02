@@ -1,131 +1,102 @@
-<section id="home-slider">
-		[mi_exec_widget id=mirai_ngg_slider number=2]
+<section id="slider" class="nopdd">
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="active item">
+				[get_image id="113" align=" full-width"]
+			</div>
+			<div class="item">
+				[get_image id="104" align=" full-width"]
+			</div>
+			<div class="item">
+				[get_image id="103" align=" full-width"]
+			</div>
+		</div>
+	</div>
 	<div class="bg-engine">
-		<div class="affix-top row"  data-offset-top="94" data-spy="affix">
+		<div class="affix-top row"  data-offset-top="600" data-spy="affix">
 			[mi_exec_widget id=mirai_engine number=2]
 		</div>
 	</div>
-	<!--div class="content-home-slider">
-		<div class="container">
-			<div class="title-slider">
-				<h1 class="white">{1}</h1>	
-			</div>
-			<a href="#intro-home" class="scroll-to-info arrow-white"></a>
-		</div>
-	</div-->
 </section>
-<section id="intro-home" class="bg-grey after-grey">
+<section id="home-links">
 	<div class="container">
-		<div class="row">
-			<div class="span6 pdd-right pos-relative">
-				<div class="photo-title-up-left">
-					<p>{3}</p>
-				</div>
-				<a class="box-caption" href="[get_page page="37"]">
-					[get_image id="239"]
-					
-					<div class="photo-title-down">
-						<p>{2}</p>
-					</div>
-				</a>
+		<h1 class="center">{1}</h1>
+		<div class="row-fluid">
+			<div class="span4">
+				<a href="#home-room" class="ico-g ico-room size20 scroll"><span></span>{2}</a>
 			</div>
-			<div class="span6 pdd-left pos-relative">
-				<div class="photo-title-up-right">
-						<p>{6}</p>
-				</div>
-				<a class="box-caption" href="[get_page page="136"]">
-					[get_image id="236"]
-					
-					<div class="photo-title-down">
-						<p>{5}</p>
-					</div>
-				</a>
+			<div class="span4">
+				<a href="#home-map" class="ico-g ico-map  size20 scroll"><span></span>{3}</a>
+			</div>
+			<div class="span4">
+				<a href="#home-offers" class="ico-g ico-offers  size20 scroll"><span></span>{4}</a>
 			</div>
 		</div>
 	</div>
 </section>
-<section id="discover-us" class="after-white">
-	<div class="container">
-		<h1 class="pdd1">{7}</h1>
-		<h3 class="pdd2">{8}</h3>
-		<div class="row">
-			<div class="span4 pos-relative photo-left">
-				<div class="photo-title-up-left">
-					<p>{10}</p>
+<section id="home-room" class="bg01 nopdd">
+	<div class="row-fluid">
+		<div class="span6 sliderwrapper" >
+			[mi_slideshow id="3" shadowbox="on" selector="arrows"]
+		</div>
+		<div class="span6 pdd01 pull-right room-text">
+			<h1 class="size28 ">{5}</h1>
+			<p class="mrg01">{6}</p>
+			<div class="row-fluid">
+				<div class="span6 mrg03">
+					<a href="" class="link-btn nowrap">{7}</a>
 				</div>
-				<a class="box-caption" href="[get_page page="33"]">
-					[get_image id="238"]
-					<div class="photo-title-down">
-						<p>{9}</p>
-					</div>
-				</a>
-			</div>
-			<div class="span4 pos-relative photo-center">
-				<div class="photo-title-up-left">
-						<p>{12}</p>
+				<div class="span5 offset1">
+					<a href="" class="link-txt">{8}</a>
 				</div>
-				<a class="box-caption" href="[get_page page="34"]">
-					[get_image id="213"]
-					<div class="photo-title-down">
-						<p>{11}</p>
-					</div>
-				</a>
-			</div>
-			<div class="span4 pos-relative photo-right">
-				<div class="photo-title-up-right">
-						<p>{14}</p>
-				</div>
-				<a class="box-caption" href="[get_page page="40"]">
-					[get_image id="237"]
-					<div class="photo-title-down">
-						<p>{13}</p>
-					</div>
-				</a>
 			</div>
 		</div>
 	</div>
 </section>
-<section id="social-networks">
+<section id="home-link2" class="bg02 nopdd">
 	<div class="container">
-		<div class="deco-title flex">
-			<span class="line-white"></span>
-			<h1 class="white">{15}</h1>
-			<span class="line-white"></span>
-		</div>
-			<div class="span6 offset3" id="twitter">
-				[twitter-widget username="Hotelaspalmeras" items="3" hidereplies="true" targetBlank="true" avatar="bigger" showfollow="true" showintents="false" showretweets="false" hidefrom="true" title="Twitter Hotel Las Palmeras"]
-			</div>
-	</div>
-</section>
-<section id="wedding-golf">
-	<div class="container">
-		<div class="row">
-			<div class="span4 photo-left">
-				<div class="box-caption wedding">
-					<p>{16}</p>
-					[get_image id="107"]
+		<div class="offset1 span10 pdd01">
+			<div class="row-fluid">
+				<div class="span4">
+					<p class="ico-bestprice ico-g size20"><span></span>{9}</p>
+				</div>
+				<div class="span4">
+					<a href="" class="ico-reviews  ico-g size20"><span></span>{10}</a>
+				</div>
+				<div class="span4">
+					<a href="[get_page page="13"]" class="ico-photos  ico-g size20"><span></span>{11}</a>
 				</div>
 			</div>
-			<div class="span4 photo-center">
-				<a class="box-caption wedding-icon flex" href="[get_page page="34"]">
-					<p>{17}</p>
-				</a>
+		</div>
+</div>
+</section>
+<section id="home-map">
+	<div class="container">
+		<h1 class="center">{12}</h1>
+		<div class="row-fluid">
+			<div class="span4">
+				<a href="" class="ico-map-small"><span></span>{13}</a>
 			</div>
-			<div class="span4 photo-right">
-				<a class="box-caption golf-icon flex" href="[get_page page="35"]">
-					<p>{18}</p>
-				</a>
+			<div class="span4">
+				<a href="" class="ico-map-small"><span></span>{14}</a>
 			</div>
+			<div class="span4">
+				<a href="" class="ico-map-small"><span></span>{15}</a>
+			</div>
+		</div>
+		<div class="span12 mapa">
+			[GoogleMaps]
 		</div>
 	</div>
 </section>
-<section id="recommended" class="bg-grey">
+<section id="home-offers" class="pdd02">
 	<div class="container">
-		<div class="deco-title flex">
-			<span class="line-grey"></span>
-			<h1>{19}</h1>
-			<span class="line-grey"></span>
+		<h1 class="center">{16}</h1>
+		<div class="row-fluid">
+			[mi_exec_widget id=mirai_custom_offers_mashup number=4]
 		</div>
-		[get_image id="109"]
+		<div class="sapn12 center">
+			<a href="[get_page page="9"]" class="link-btn bt-white">{20}</a>
+		</div>
 	</div>
 </section>
