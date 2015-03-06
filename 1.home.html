@@ -17,6 +17,7 @@
 			[mi_exec_widget id=mirai_engine number=2]
 		</div>
 	</div>
+	[mi_exec_widget id=mirai_texto number=15]
 </section>
 <section id="home-links">
 	<div class="container">
@@ -38,16 +39,17 @@
 	<div class="row-fluid">
 		<div class="span6 sliderwrapper" >
 			[mi_slideshow id="3" shadowbox="on" selector="arrows"]
+<div class="ico-camera-small pos-a size20"><span></span>/6</div>
 		</div>
 		<div class="span6 pdd01 pull-right room-text">
 			<h1 class="size28 ">{5}</h1>
 			<p class="mrg01">{6}</p>
 			<div class="row-fluid">
 				<div class="span6 mrg03">
-					<a href="" class="link-btn nowrap">{7}</a>
+					<a href="[get_page page="11"]" class="link-btn nowrap">{7}</a>
 				</div>
 				<div class="span5 offset1">
-					<a href="" class="link-txt">{8}</a>
+					<a href="[get_page page="21"]" class="link-txt">{8}</a>
 				</div>
 			</div>
 		</div>
@@ -61,7 +63,9 @@
 					<p class="ico-bestprice ico-g size20"><span></span>{9}</p>
 				</div>
 				<div class="span4">
-					<a href="" class="ico-reviews  ico-g size20"><span></span>{10}</a>
+					<a id="review" href="http://ws.hotelsearch.com/hotels/92575682/reviews_summary.js?language=es&amp;layout=full&amp;xdid=XdHs" container="xdhsReviewsDialogContainer" class="xdhsReviewsDialogLink mirai_btReview ico-reviews  ico-g size20" title="{10}"><span></span>
+						<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={21}&amp;hotelid=92575682&amp;link="></script>
+					</a>
 				</div>
 				<div class="span4">
 					<a href="[get_page page="13"]" class="ico-photos  ico-g size20"><span></span>{11}</a>
@@ -75,13 +79,13 @@
 		<h1 class="center">{12}</h1>
 		<div class="row-fluid">
 			<div class="span4">
-				<a href="" class="ico-map-small"><span></span>{13}</a>
+				<a href="[get_page page="16" extra="#borbones-guide"]" class="ico-map-small"><span></span>{13}</a>
 			</div>
 			<div class="span4">
-				<a href="" class="ico-map-small"><span></span>{14}</a>
+				<a href="[get_page page="16" extra="#borbones-introduction"]" class="ico-map-small"><span></span>{14}</a>
 			</div>
 			<div class="span4">
-				<a href="" class="ico-map-small"><span></span>{15}</a>
+				<a href="[get_page page="15" extra="#austrias-introduction"]" class="ico-map-small"><span></span>{15}</a>
 			</div>
 		</div>
 		<div class="span12 mapa">
