@@ -2,18 +2,21 @@
 	<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
 			<div class="active item">
-				[get_image id="113" align=" full-width"]
+				[get_image id="5071" align=" full-width"]
 			</div>
 			<div class="item">
-				[get_image id="104" align=" full-width"]
+				[get_image id="5070" align=" full-width"]
 			</div>
 			<div class="item">
-				[get_image id="103" align=" full-width"]
+				[get_image id="5072" align=" full-width"]
 			</div>
 		</div>
 	</div>
+	<div>
+		<a href="#home-links" class="scroll scroll-to-info arrow-white"> [mi_exec_widget id=mirai_texto number=16] <i></i></a>
+	</div>
 	<div class="bg-engine">
-		<div class="affix-top row"  data-offset-top="600" data-spy="affix">
+		<div class="affix-top row"  data-offset-top="650" data-spy="affix">
 			[mi_exec_widget id=mirai_engine number=2]
 		</div>
 	</div>
@@ -67,8 +70,8 @@
 						<script src="http://ws.hotelsearch.com/xdhs.js" id="XdHs" name="xdsurveys|layout=small&amp;language={21}&amp;hotelid=92575682&amp;link="></script>
 					</a>
 				</div>
-				<div class="span4">
-					<a href="[get_page page="13"]" class="ico-photos  ico-g size20"><span></span>{11}</a>
+				<div class="span4 pos-r gallery-link">
+					<p class="ico-photos  ico-g size20"><span></span>15 {11}[ngg_images gallery_ids="15" display_type="photocrati-nextgen_basic_singlepic"]</p>
 				</div>
 			</div>
 		</div>
@@ -77,18 +80,13 @@
 <section id="home-map">
 	<div class="container">
 		<h1 class="center">{12}</h1>
-		<div class="row-fluid">
-			<div class="span4">
-				<a href="[get_page page="16" extra="#borbones-guide"]" class="ico-map-small"><span></span>{13}</a>
-			</div>
-			<div class="span4">
-				<a href="[get_page page="16" extra="#borbones-introduction"]" class="ico-map-small"><span></span>{14}</a>
-			</div>
-			<div class="span4">
-				<a href="[get_page page="15" extra="#austrias-introduction"]" class="ico-map-small"><span></span>{15}</a>
-			</div>
-		</div>
 		<div class="span12 mapa">
+			<ul class="places row">
+				<li class="span4 ico-map-small color01"><span></span><!--i class="ico-map-small"></i -->[LinkMapaGoogleMaps texto="{13}" lugar="40.416041, -3.694925"]</li>
+				<li class="span4 ico-map-small color01"><span></span>[LinkMapaGoogleMaps texto="{14}" lugar="40.4145254, -3.6917408"]</li>
+				<li class="span4 ico-map-small color01"><span></span>[LinkMapaGoogleMaps texto="{15}" lugar="40.417955, -3.714312"]</li>
+			</ul>
+
 			[GoogleMaps]
 		</div>
 	</div>
@@ -99,7 +97,7 @@
 		<div class="row-fluid">
 			[mi_exec_widget id=mirai_custom_offers_mashup number=4]
 		</div>
-		<div class="sapn12 center">
+		<div class="sapn12 center mrg05">
 			<a href="[get_page page="9"]" class="link-btn bt-white">{20}</a>
 		</div>
 	</div>
