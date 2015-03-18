@@ -1,0 +1,64 @@
+GENERAL
+
+
+
+1024
+
+- Tiene scroll horizontal. Como lo hemos hablado, en casa (uso Mac) a mí me aparece sin scroll a 1024, tanto en chrome como en firefox. He probado en Browserstak y sí aparece con scroll a esa resolución, así que lo mejor es que cuando testees otras webs en IE8, te fijes en si tiene o no scroll horizontal y así sales de dudas ; )
+
+MOTOR: 
+[ok]En italiano el código promocional se pega mucho al input.
+
+
+SITUACION:
+[ok comentar]- Las imágenes de los distintos puntos de Madrid, las has separado con borders, y los textos que las acompañan, los centras con paddings. No es muy correcto.
+Lo ideal sería darle a todo el contenedor un box-sizing y un paddding left o right para que se separe en el centro y que afectará tanto al p como a la imagen, y simplemente el p lo alineas en el centro.
+En las páginas de Madrid en las secciones con las fotos de lugares de Madrid haces lo mismo.
+
+HABITACIONES:
+[linea?]Al hacer hover sobre las habitaciones de la izquierda, se desplazan 1 o 2 pixeles hacia la izquierda y aparece una linea blanca entre las fotos.
+En cada container de fotos, tras la galería, aparece un span vacío que no lleva nada, ¿Te sobra? ¿Por qué está ahí?
+
+DE COMPRAS POR MADRID:
+Revisa el enlace del primer párrafo porque va a una url de la página actual y quizá cuando se suba, el enlace se rompa.
+En francés los textos salen en inglés ¿?¿?¿?
+
+OFERTAS:
+[ok]Cuando después del "desde X€" hay un texto más largo, se pega muchísimo al botón consultar. (La primera oferta por ejemplo) a 1024.
+En detalle de oferta, el botón cuando está disabled no debería tener cambio de color en el hover.
+
+FOOTER:
+[ok]El link de Google Plus va al perfil de Foursquare
+
+BLOG:
+[ok]Revisar post individuales
+
+1200
+[ok]Las fotos del header se quedan separadas del motor por una línea blanca.
+
+Continuacion:
+
+POLITICA DE COOKIES
+[ok]Intenta darle una apariencia parecida al aviso legal, con el bordecito después de cada párrafo, espaciado entre cada grupo de información… Y la lista de navegadores del final normalmente la ponemos en display-block los lis con un 30% de width : )
+
+PAGINA 404
+
+[ok]Centra el texto al menos para que no quede tan raro pegado a la izquierda.
+
+BOOKINGSTEP
+
+[ok]El motor pega el salto en todos los idiomas menos en español. Como tienes que cambiar el motor a check in sólamente, probablemente se solucione.
+Cuando finalizas la reserva aún va a la versión de la pagina antigua, no se si es problema de dns o qué.
+
+IE8
+
+La flecha de las imágenes de cabecera no se ve y cuando se hace hover pierde el background y se ve muy poquito.
+- Botón de ofertas con apariencia de filter y el detalle de ofertas sin apariencia disabled.
+
+HOME
+
+[ok]Los links no tienen title, en el link de 15 fotos del hotel el title es "Doble".
+El detalle de ofertas sólo funciona en español.
+
+FOOTER
+[ok]Los links tampoco tienen title en el footer (menú, aviso legal, cookies, ver/cancelar…)
