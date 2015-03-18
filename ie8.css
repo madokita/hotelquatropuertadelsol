@@ -1,0 +1,75 @@
+/********************
+*
+*   PIE currently adds full or partial support to IE 6 through 8 for the following CSS3 features:
+*     - border-radius
+*     - box-shadow
+*     - border-image
+*     - multiple background images
+*     - linear-gradient as background image
+*
+*	behavior: url(/wp-content/themes/NOMBRE-HOTEL/PIE.htc);  OJO!!! mira la url del navegador. Ahí tienes el nombre :)
+*
+*********************/
+.scroll-to-info {
+  background: #000;
+  background-image:url(/files/sprite-icons.png);
+  background-position:right -484px;
+  background-repeat:no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  display:inline-block;
+} 
+.scroll-to-info:hover { 
+  background: #000;
+  background-image:url(/files/sprite-icons.png);
+  background-position:right -530px; 
+  background-repeat:no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  display:inline-block;
+} 
+.scrollwrapper{
+    margin-top:-40px;
+}
+ /*MOTOR*/
+.engine_mashup>div form .control-group select {
+	height:auto;
+    padding:10px;
+}
+/*HOME*/
+.ico-camera-small, .photo-name{
+  background: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+
+.googleMapsContainer .walk{
+    text-indent:-4000px;
+    top:-20px;
+}
+.offers-mashup dl{
+	height:320px;
+}
+
+.offers-mashup dl dd a.btn{
+    text-indent:-4000px;
+}
+.offers-mashup dl dd span{
+	top:280px;
+}
+.onlyie8 {
+	display:block;
+    height:60px;
+}
+.onlyie8 .hsRating div#scoreTop span#ratingBar, .onlyie8 a#moreReviews, #hsRating p#mirai_reviewSouce strong {
+	display:block;
+}
+	display:none !important;
+}
+/*OFFER*/
+.offers-listing-wrapper .offer .offer-button, .offers-listing-wrapper .offer .offer-button:hover{
+	filter:none;
+}
+
+.bookingstep1 input {
+	font-size:13px !important;
+}
+
+
